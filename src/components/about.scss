@@ -1,0 +1,46 @@
+.about_page_section {
+  display: grid;
+  // align-items: center;
+  height: 100vh;
+  margin-top: 50px;
+  .container-fluid {
+    .about_page {
+      .about_page_inner {
+         display: flex;
+         flex-direction: row;
+
+        .about_page_left {
+            width: 55%;
+          hr {
+            width: 100px;
+            height: 1px;
+            background: #29b85d;
+          }
+          .about_page_title {
+            color: #fff;
+            margin-top: 40px;
+          }
+          p {
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 36px;
+            color: #ffffff;
+            margin-top: 40px;
+          }
+          .about_page_button{
+              margin-top: 60px;
+          }
+        }
+
+        .about_page_right {
+            width: 45%;
+            img{
+                width: 500px;
+            }
+        }
+      }
+    }
+  }
+}
